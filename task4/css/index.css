@@ -231,7 +231,10 @@ a:link {
 .more-link a {
     vertical-align: middle;
 }
-
+.period .cale {
+    display: inline-block;
+    width: 75%;
+}
 .list {
     position: relative;
     overflow: hidden;
