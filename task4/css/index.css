@@ -37,7 +37,9 @@ a:link {
 .border-orange {
     border: 1px solid rgb(255, 102, 0);
 }
-
+.clear-r {
+    clear: right;
+}
 .color140,
 .list .list-judge,
 .remark,
