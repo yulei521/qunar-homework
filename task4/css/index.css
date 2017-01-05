@@ -37,9 +37,11 @@ a:link {
 .border-orange {
     border: 1px solid rgb(255, 102, 0);
 }
+
 .clear-r {
     clear: right;
 }
+
 .color140,
 .list .list-judge,
 .remark,
@@ -233,10 +235,12 @@ a:link {
 .more-link a {
     vertical-align: middle;
 }
+
 .period .cale {
     display: inline-block;
     width: 75%;
 }
+
 .list {
     position: relative;
     overflow: hidden;
