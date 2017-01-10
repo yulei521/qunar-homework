@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /* base css */
 body {
     font-size: 14px;
@@ -129,7 +131,7 @@ a:link {
     width: 70%;
 }
 
-/* special css*/
+/* special css */
 .head,
 .info .info-judge,
 .list-more,
@@ -167,7 +169,7 @@ a:link {
 
 .banner .num {
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, .3);
     padding: 5px;
     position: absolute;
     right: 0;
@@ -276,8 +278,9 @@ a:link {
 .list .list-pay .book {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .list .list-pay .compare,
@@ -297,8 +300,10 @@ a:link {
 }
 
 .list .list-pay .compare .transform {
-    transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
     display: inline-block;
     position: relative;
     right: -3px;

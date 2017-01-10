@@ -1,7 +1,9 @@
+@charset "utf-8";
+
 body {
     font-size: 14px;
     color: #333;
-    font-family: "微软雅黑", "Times New Roman";
+    font-family:"Times New Roman",Georgia,Serif;
 }
 
 body, div, span, ul, li {
@@ -57,7 +59,7 @@ div, span, button, a {
 }
 
 .c-white70 {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, .7);
 }
 
 .c-red {
@@ -71,9 +73,9 @@ div, span, button, a {
 .font10 {
     font-size: 12px;
     display: inline-block;
-    transform: scale(1, 0.9);
-    -webkit-transform: scale(1, 0.9);
-    -moz-transform: scale(1, 0.9);
+    -webkit-transform: scale(1, .9);
+    -moz-transform: scale(1, .9);
+    transform: scale(1, .9);
 }
 
 .font12 {
@@ -175,7 +177,7 @@ div, span, button, a {
 }
 
 #headbar {
-    background-image: url(../img/header-banner.png);
+    background-image: url(../img/header-banner.jpg);
     height: 600px;
     width: 100%;
     background-size: 100% 100%;
@@ -196,10 +198,10 @@ div, span, button, a {
 
 #headbar .red-banner .r-bar-text {
     color: #fff;
-    transform: rotate(-4deg);
     -moz-transform: rotate(-4deg);
     -webkit-transform: rotate(-4deg);
     -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
     position: relative;
     top: 12px;
 }
@@ -258,9 +260,9 @@ div, span, button, a {
     position: absolute;
     top: 55%;
     left: 48%;
-    transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     width: 100%;
 }
 
@@ -303,19 +305,19 @@ div, span, button, a {
 
 #content .coming-soon-item1,
 #content .coming-soon-item2 {
-    transform: skew(15deg, 0deg);
+    overflow: hidden;
     -moz-transform: skew(15deg, 0deg);
     -webkit-transform: skew(15deg, 0deg);
-    overflow: hidden;
+    transform: skew(15deg, 0deg);
 }
 
 #content .coming-soon-item1 .pic1,
 #content .coming-soon-item2 .pic2 {
     height: 220px;
     width: 420px;
-    transform: skew(-15deg, 0deg);
     -moz-transform: skew(-15deg, 0deg);
     -webkit-transform: skew(-15deg, 0deg);
+    transform: skew(-15deg, 0deg);
     background-size: 100% 100%;
     position: relative;
     overflow: hidden;
@@ -349,7 +351,7 @@ div, span, button, a {
     width: 100%;
     padding: 10px 0;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, .5);
     position: absolute;
     bottom: 0;
 }
@@ -476,6 +478,7 @@ div, span, button, a {
 }
 
 #content .content .goods-list-title .t-border::after {
+    margin-left: 10px;
     margin-right: 10px;
     display: inline-block;
     height: 30px;
@@ -513,7 +516,7 @@ div, span, button, a {
     top: 0;
     left: 0;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, .5);
     content: "北上广"
 }
 
@@ -527,7 +530,7 @@ div, span, button, a {
 #content .content .goods-list-item1-info,
 #content .content .goods-list-item2-info {
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, .5);
     position: relative;
 }
 
@@ -602,9 +605,9 @@ div, span, button, a {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 #content .content .ticket .btn {
@@ -668,9 +671,9 @@ div, span, button, a {
     line-height: 25px;
     white-space: nowrap;
     clear: left;
-    transform: scaleX(0.90);
-    -webkit-transform: scaleX(0.90);
-    -moz-transform: scaleX(0.90);
+    -webkit-transform: scaleX(.9);
+    -moz-transform: scaleX(.9);
+    transform: scaleX(.9);
 }
 #footer .footer .more-link a {
     width: 85px;
@@ -723,9 +726,9 @@ div, span, button, a {
 
 .weixin .font10 {
     white-space: nowrap;
-    transform: scale(0.83);
-    -webkit-transform: scale(0.83);
-    -moz-transform: scale(0.83);
+    -webkit-transform: scale(.83);
+    -moz-transform: scale(.83);
+    transform: scale(.83);
     position: relative;
     left: -9%
 }
@@ -769,9 +772,9 @@ div, span, button, a {
 
 .float-bar .float-text {
     color: #fff;
-    transform: rotate(-3deg);
     -webkit-transform: rotate(-3deg);
     -moz-transform: rotate(-3deg);
+    transform: rotate(-3deg);
 }
 
 .float-bar .float-img,
