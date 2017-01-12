@@ -27,7 +27,8 @@ body {
     bottom: 0;
     right: 0;
     background-color: rgba(0, 0, 0, .5);
-    -ms-filter: alpha(opacity=50); /* ie8下透明效果 */
+    background-color: rgb(0, 0, 0);
+    /* ie8下透明效果 */
     filter: alpha(opacity=50);
     display: none;
 }
