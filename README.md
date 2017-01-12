@@ -1,5 +1,4 @@
 # qunar-homework
-[https://yulei521.github.io/qunar-homework/](https://yulei521.github.io/qunar-homework/)
 
 + task1: [https://yulei521.github.io/qunar-homework/task1](https://yulei521.github.io/qunar-homework/task1)
 + task2-1: [https://yulei521.github.io/qunar-homework/task2/1](https://yulei521.github.io/qunar-homework/task2/1)
