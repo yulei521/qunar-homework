@@ -1,4 +1,24 @@
 currentActiveImgIndex = 0;
+minWidth = 180;
+maxWidth = 475;
+timerId = -1;
+
+function changeImgWidth(imgDivs, originIndex, desIndex, eachTime, eachChange){
+    var tempMinWidth = maxWidth,
+        tempMaxWidth = minWidth;
+    function changeWidth(){
+        if(tempMinWidth > minWidth && tempMaxWidth < maxWidth){
+            tempMinWidth = tempMinWidth - eachChange;
+            tempMaxWidth = tempMaxWidth + eachChange;
+            imgDivs[originIndex].style.width = tempMinWidth + "px";
+            imgDivs[desIndex].style.width = tempMaxWidth + "px";
+            setTimeout(changeWidth, eachTime);
+        }else {
+
+        }
+    }
+    setTimeout(changeWidth, eachTime);
+}
 
 function getImgDivs() {
     var scrollId = document.getElementById("scroll-img");
@@ -9,13 +29,11 @@ function getImgDivs() {
 function changeImgItem(index) {
     if (index == currentActiveImgIndex)return;
     var imgDivs = getImgDivs();
-    imgDivs[currentActiveImgIndex].className = "img item" + currentActiveImgIndex + " change";
-    imgDivs[index].className = "img " + "item" + index + " active change";
-    currentActiveImgIndex = index;
-    console.log(currentActiveImgIndex);
-}
-
-window.onload = function () {
-    var imgDivs = getImgDivs();
-    imgDivs[0].className = "img item0 active";
+    if(timerId != -1){
+        clearTimeout(timerId);
+    }
+    timerId = setTimeout(function(){
+        changeImgWidth(imgDivs, currentActiveImgIndex, index, 10, 10);
+        currentActiveImgIndex = index;
+    }, 200);
 }

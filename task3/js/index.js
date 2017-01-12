@@ -33,8 +33,8 @@ function addDataIntoHtml(data) {
         tempStr.appendChild(createTag("div", "exchange-info", createTag("span", "btn btn-blue", "兑换信息")));
         id.appendChild(tempStr);
     }
-    var currentPage = document.getElementsByClassName("color-red")[0];
-    var totalPage = document.getElementsByClassName("total-page")[0];
+    var currentPage = document.getElementById("current-page");
+    var totalPage = document.getElementById("total-page");
     currentPage.innerHTML = data.current_page;
     totalPage.innerHTML = data.total_page;
 }

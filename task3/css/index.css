@@ -4,6 +4,22 @@ body {
     font-size: 13px;
 }
 
+body,
+.data-from,
+.data-to,
+.detail-info,
+.input-num
+{
+    background-color: white;
+}
+
+.data-from,
+.data-to{
+    vertical-align: top;
+    line-height: 26px;
+}
+
+
 body, div, span {
     margin: 0;
     padding: 0;

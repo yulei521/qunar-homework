@@ -156,6 +156,7 @@ div, span, button, a {
 #topbar .top-menu img {
     vertical-align: middle;
     padding-right: 5px;
+    border-width: 0;
 }
 
 #topbar .top-menu > a {
@@ -177,7 +178,7 @@ div, span, button, a {
 }
 
 #headbar {
-    background-image: url(../img/header-banner.jpg);
+    background-image: url(../img/header-banner.png);
     height: 600px;
     width: 100%;
     background-size: 100% 100%;
@@ -198,12 +199,12 @@ div, span, button, a {
 
 #headbar .red-banner .r-bar-text {
     color: #fff;
-    -moz-transform: rotate(-4deg);
-    -webkit-transform: rotate(-4deg);
-    -ms-transform: rotate(-4deg);
-    transform: rotate(-4deg);
+    -moz-transform: rotate(-3.5deg);
+    -webkit-transform: rotate(-3.5deg);
+    -ms-transform: rotate(-3.5deg);
+    transform: rotate(-3.5deg);
     position: relative;
-    top: 12px;
+    top: 13px;
 }
 
 #headbar .time-axis {
@@ -349,7 +350,7 @@ div, span, button, a {
     color: #fff;
     height: 105px;
     width: 100%;
-    padding: 10px 0;
+    padding: 13px 0;
     text-align: center;
     background-color: rgba(0, 0, 0, .5);
     position: absolute;
@@ -566,8 +567,8 @@ div, span, button, a {
 
 #content .content .goods-list-item2-info {
     height: 80px;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 12px;
+    padding-top: 12px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -771,6 +772,8 @@ div, span, button, a {
 }
 
 .float-bar .float-text {
+    position: relative;
+    top: 5px;
     color: #fff;
     -webkit-transform: rotate(-3deg);
     -moz-transform: rotate(-3deg);

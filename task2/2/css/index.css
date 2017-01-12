@@ -31,7 +31,7 @@ div {
     cursor: pointer;
 }
 
-.scroll-img .img.active {
+.scroll-img .img.item0 {
     width: 475px;
 }
 
@@ -45,11 +45,4 @@ div {
 
 .scroll-img .img.item3 {
     left: -3px;
-}
-
-.scroll-img .img.change {
-    -moz-transition: width 1s;
-    -webkit-transition: width 1s;
-    -o-transition: width 1s;
-    transition: width 1s;
 }
