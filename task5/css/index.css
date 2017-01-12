@@ -163,7 +163,7 @@ body {
     background: url(../img/cal.png) no-repeat;
     background-size: 100% 100%;
     position: relative;
-    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/cal.png',sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/cal.png', sizingMethod='scale');
 }
 
 #fly .charge-text {
@@ -277,7 +277,6 @@ body {
     content: " ";
     margin-top: -2px;
     background: #fff;
-    behavior: url(../../PIE.htc);
 
 }
 
@@ -295,7 +294,6 @@ body {
     display: inline-block;
     position: relative;
     top: -1px;
-    behavior: url(../../PIE.htc);
 }
 
 #fly .baseline-center:before,

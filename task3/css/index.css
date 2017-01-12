@@ -8,17 +8,15 @@ body,
 .data-from,
 .data-to,
 .detail-info,
-.input-num
-{
+.input-num {
     background-color: white;
 }
 
 .data-from,
-.data-to{
+.data-to {
     vertical-align: top;
     line-height: 26px;
 }
-
 
 body, div, span {
     margin: 0;

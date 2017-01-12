@@ -107,17 +107,17 @@ function goToTop() {
 }
 function getScrollValue() {
     var scrollVal;
-    if(document.compatMode && document.compatMode == "CSS1Compat" && document.documentElement.scrollTop){
+    if (document.compatMode && document.compatMode == "CSS1Compat" && document.documentElement.scrollTop) {
         scrollVal = document.documentElement.scrollTop;
-    }else {
+    } else {
         scrollVal = document.body.scrollTop;
     }
     return scrollVal;
 }
 function setScrollValue(currentScroll, scrollVal) {
-    if(document.compatMode && document.compatMode == "CSS1Compat" && document.documentElement.scrollTop){
+    if (document.compatMode && document.compatMode == "CSS1Compat" && document.documentElement.scrollTop) {
         document.documentElement.scrollTop = currentScroll - scrollVal;
-    }else {
+    } else {
         document.body.scrollTop = currentScroll - scrollVal;
     }
 }

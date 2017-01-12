@@ -3,7 +3,7 @@
 body {
     font-size: 14px;
     color: #333;
-    font-family:"Times New Roman",Georgia,Serif;
+    font-family: "Times New Roman", Georgia, Serif;
 }
 
 body, div, span, ul, li {
@@ -665,7 +665,6 @@ div, span, button, a {
     margin-right: 10px;
 }
 
-
 #footer .footer .more-link,
 #footer .footer .copyright {
     font-size: 12px;
@@ -676,6 +675,7 @@ div, span, button, a {
     -moz-transform: scaleX(.9);
     transform: scaleX(.9);
 }
+
 #footer .footer .more-link a {
     width: 85px;
     height: 17px;

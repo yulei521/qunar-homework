@@ -57,6 +57,7 @@ body {
     right: -12px;
     cursor: pointer;
 }
+
 #layer .close:hover {
     top: -10px;
     background-image: url(../../images/close_hover.png);
