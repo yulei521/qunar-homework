@@ -13,3 +13,6 @@
 + 利用filter实现task2 IE8下透明效果
 + 修复task3多个input offset在IE8下显示偏移问题
 + 修复task5在IE8下 ::after ::before的问题
+
+### 2017-3-15
++ task2-1 IE9下会出现问题
